@@ -1,0 +1,8 @@
+{% extends 'base.html.twig' %}
+<form action="/addPost" method="POST">
+    <label for="name"><input type="text" placeholder="Name of post" name="name"></label>
+    <label for="content"><input type="text" placeholder="Content" name="content"></label>
+    <label for="image"><input type="image" placeholder="Add image(optional)" name="image"></label>
+    <button type="submit" class="registerbtn">Send</button>
+</form>
+{% endfor %}
